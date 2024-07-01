@@ -33,7 +33,7 @@ def daemon_task(last_processed_row_id):
 
                 # Maj last_processed_row_id au dernier lignes trouvé
                 last_processed_row_id = max(row[0] for row in new_rows)
-                exec(open(r"C:\Users\bahaeddine\Desktop\smsAstus.py").read())
+                exec(open(r".................................").read())
 
         except mysql.connector.Error as err:
             print("Error querying database:", err)
