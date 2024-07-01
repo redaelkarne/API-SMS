@@ -19,11 +19,11 @@ username = "******"
 password = "******"
 
 # API endpoint URL
-url = "https://sms.virgopass.com/d2/multipush"
+url = "https://sms.virgopass.com/....."
 def send_email(subject, body):
-    sender_email = "relkarne@astus.fr"  
-    recipient_email = "relkarne@astus.fr"  
-    password = "289ga69LY"  
+    sender_email = ""  
+    recipient_email = ""  
+    password = ""  
 
     message = MIMEMultipart()
     message["From"] = sender_email
